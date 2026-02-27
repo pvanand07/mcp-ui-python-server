@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mcp-ui-python": {
+      "command": "uv",
+      "args": ["run", "python", "I:\\DEV\\MCP-UI\\server.py"]
+    }
+  }
+}
