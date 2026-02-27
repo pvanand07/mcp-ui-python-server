@@ -1,6 +1,8 @@
+# MCP UI Python Server - HTTP (SSE) transport
+# Run: docker compose up --build
+# Server runs as: python server.py --http --port 3000 (host port 20022 → container 3000)
 services:
   mcp-ui-server:
     build: .
     ports:
-      - "3000:3000"
-    command: uv run python server.py --http --port 3000
+      - "20022:3000"
