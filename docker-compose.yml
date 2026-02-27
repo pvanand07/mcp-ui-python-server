@@ -1,0 +1,6 @@
+services:
+  mcp-ui-server:
+    build: .
+    ports:
+      - "3000:3000"
+    command: uv run python server.py --http --port 3000

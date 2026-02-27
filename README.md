@@ -42,6 +42,14 @@ uv run python server.py --http --port 3000
 
 Then connect at `http://localhost:3000/sse` with transport type **SSE**.
 
+**Using Docker:**
+
+```powershell
+docker compose up --build
+```
+
+The server runs with `uv run python server.py --http --port 3000` and is available at `http://localhost:3000/sse`.
+
 ## Use in Cursor (over URL)
 
 1. **Start the server with HTTP/SSE** (in a terminal, keep it running):
